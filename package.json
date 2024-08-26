@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.4.0",
+    "mongoose": "^8.5.4",
+    "mongoose-unique-validator": "^5.0.1",
+    "next": "14.2.6",
+    "next-auth": "^4.24.7",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.6"
+    "stripe": "^16.8.0"
   },
   "devDependencies": {
     "eslint": "^8",
