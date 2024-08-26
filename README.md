@@ -3,3 +3,5 @@ This is a nextJS based full e-commerce page where you can buy, order and pay for
 * MongoDB is used for backend, mongoose is also used.
 [Next-Auth] is used for encrypted user registration.
 # Author: Mirul Moktadir Khan
+* only login page created
+
