@@ -169,7 +169,7 @@ const AddProduct = () => {
 							onClick={() => removePhoto(image)}
 							className="text-center pointer"
 						>
-							x
+							X
 						</button>
 					</div>
 				)}
