@@ -6,10 +6,9 @@ import queryString from "query-string";
 // http://localhost:3000/api/product?page=2
 export async function GET(req) {
 	await connectDb();
-	// 50 -> 31-40 31-40
 	// 40 - 39 - 38 - 37 - 36 - 35 - 34 - 33 - 32 - 31 - 30
 	const searchParams = queryString.parseUrl(req.url).query;
-	const { page } = searchParams || {}; // 4
+	const { page } = searchParams || {};
 	const pageSize = 10;
 	try {
 		const currentPage = Number(page) || 1;

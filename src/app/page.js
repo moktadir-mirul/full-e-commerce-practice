@@ -10,7 +10,7 @@ const getProducts = async (searchParams) => {
 	}).toString();
 
 	const res = await fetch(
-		`http://localhost:4000/products?${searchQuery}`,
+		`http://localhost:3000/api/product?${searchQuery}`,
 		// http://localhost:3000/api/product?page=2
 		{
 			method: "GET",
